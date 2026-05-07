@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+}
+
+.menu a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(blue, darkblue);
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+/* BOTÕES */
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  background: blue;
+  color: white;
+}
+
+/* CURSOS */
+.titulo {
+  text-align: center;
+}
+
+.cursos {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* CTA */
+.cta {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
