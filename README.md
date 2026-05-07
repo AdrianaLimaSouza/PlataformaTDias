@@ -1,2 +1,2 @@
 # PlataformaTDias
-plataforma de cursos online
+Plataforma de cursos online
