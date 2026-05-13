@@ -1,67 +1,376 @@
-body {
-  font-family: Arial;
-  margin: 0;
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#222;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+/* =========================
+   TOPO
+========================= */
+
+.topo{
+    width:100%;
+    height:72px;
+    background:#fff;
+    border-bottom:1px solid #ececec;
 }
 
 /* MENU */
-.menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  background: white;
+
+.menu{
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
-.menu a {
-  margin: 10px;
-  text-decoration: none;
+/* LOGO */
+
+.menu h2{
+    font-size:18px;
+    color:#1457db;
+    font-weight:700;
 }
 
-/* Banner */
-.banner {
-  background: linear-gradient(blue, darkblue);
-  color: white;
-  padding: 60px;
-  text-align: center;
+/* LINKS */
+
+.links{
+    display:flex;
+    align-items:center;
+    gap:35px;
 }
 
-/* BOTÕES */
-button {
-  padding: 10px;
-  margin: 5px;
-  border: none;
-  cursor: pointer;
+.links a{
+    text-decoration:none;
+    color:#666;
+    font-size:14px;
+    transition:0.3s;
 }
 
-.btn {
-  background: blue;
-  color: white;
+.links a:hover,
+.links .ativo{
+    color:#1457db;
 }
 
-/* CURSOS */
-.titulo {
-  text-align: center;
+/* AÇÕES */
+
+.acoes{
+    display:flex;
+    align-items:center;
+    gap:20px;
 }
 
-.cursos {
-  display: flex;
-  justify-content: center;
+.acoes button{
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:14px;
+    color:#666;
+    transition:0.3s;
+    display:flex;
+    align-items:center;
+    gap:8px;
+
 }
 
-.card {
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 10px;
-  width: 250px;
+.acoes button:hover{
+    color:#1457db;
 }
 
-.card img {
-  width: 100%;
+/* BOTÃO REGISTAR */
+
+.acoes .btn{
+    background:#1457db;
+    color:white;
+    padding:11px 20px;
+    border-radius:8px;
+    font-weight:bold;
 }
 
-/* CTA */
-.cta {
-  background: blue;
-  color: white;
-  text-align: center;
-  padding: 30px;
+.acoes .btn:hover{
+    background:#0f49bb;
+    color:white;
+}
+
+/* =========================
+   BANNER
+========================= */
+
+.banner{
+    width:100%;
+    height:360px;
+    background:linear-gradient(90deg,#0057e7 0%,#3f83f8 100%);
+}
+
+/* CONTEÚDO BANNER */
+
+.banner-content{
+    height:370px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:white;
+}
+
+/* TITULO */
+
+.banner h1{
+    width:760px;
+    font-size:42px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+/* TEXTO */
+
+.banner p{
+    font-size:18px;
+    color:#ebebeb;
+    margin-bottom:35px;
+}
+
+/* BOTÕES BANNER */
+
+.botoes{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.banner button{
+    height:52px;
+    padding:0 32px;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* BOTÃO BRANCO (EXPLORAR CURSOS)*/
+
+.banner .btn{
+    background:white;
+    border:none;
+    color:#1457db;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.banner .btn:hover{
+    background:#f2f2f2;
+}
+
+/* BOTÃO TRANSPARENTE (COMEÇAR) */
+
+.banner button:last-child{
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.4);
+    color:white;
+}
+
+.banner button:last-child:hover{
+    background:rgba(255,255,255,0.08);
+}
+
+/* =========================
+   TITULO CURSOS
+========================= */
+
+.titulo{
+    text-align:center;
+
+    margin-top:90px;
+    margin-bottom:50px;
+
+    font-size:42px;
+
+    color:#1d1d1d;
+}
+
+/* =========================
+   CURSOS
+========================= */
+
+.cursos{
+    width:1200px;
+    margin:0 auto 110px auto;
+    display:flex;
+    justify-content:center;
+    gap:35px;
+}
+
+/* CARD */
+
+.card{
+    width:360px;
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+/* IMAGEM */
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* TITULO CARD */
+
+.card h3{
+    font-size:26px;
+    margin:22px 22px 12px 22px;
+}
+
+/* TEXTO CARD */
+
+.card p{
+    margin:0 22px 20px 22px;
+    color:#666;
+    line-height:26px;
+    font-size:15px;
+}
+
+/* PREÇO */
+
+.card span{
+    display:block;
+    margin:0 22px 25px 22px;
+    color:#1457db;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* =========================
+   CTA
+========================= */
+
+.cta{
+    width:100%;
+    padding:90px 20px;
+    background:linear-gradient(90deg,#0057e7 0%,#3f83f8 100%);
+    text-align:center;
+    color:white;
+}
+
+/* TITULO CTA */
+
+.cta h2{
+    font-size:48px;
+    margin-bottom:30px;
+}
+
+/* BOTÃO CTA */
+
+.cta .btn{
+    background:white;
+    color:#1457db;
+    border:none;
+    padding:16px 38px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.cta .btn:hover{
+    background:#f2f2f2;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media(max-width:1250px){
+
+    .container,
+    .cursos{
+        width:95%;
+    }
+
+    .banner h1{
+        width:100%;
+        font-size:56px;
+        line-height:62px;
+    }
+}
+
+@media(max-width:900px){
+
+    .menu{
+        flex-direction:column;
+        justify-content:center;
+        gap:15px;
+        height:auto;
+        padding:20px 0;
+    }
+
+    .links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero-content{
+        text-align:center;
+        align-items:center;
+    }
+
+    .banner h1{
+        font-size:42px;
+        line-height:48px;
+    }
+
+    .banner p{
+        font-size:17px;
+    }
+
+    .botoes{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .banner button{
+        width:100%;
+    }
+
+    .cursos{
+        flex-wrap:wrap;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .cta h2{
+        font-size:34px;
+    }
 }

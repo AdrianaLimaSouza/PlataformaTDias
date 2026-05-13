@@ -1,61 +1,58 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>TDiasPlataforma</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
 <body>
 
-  <!-- MENU -->
-  <div class="menu">
-    <h2>TDiasPlataforma</h2>
-    <div>
-      <a href="#">Início</a>
-      <a href="#">Cursos</a>
-      <a href="#">Área do Aluno</a>
-      <a href="#">Contacto</a>
-      <button>Entrar</button>
-      <button class="btn">Registar</button>
-    </div>
-  </div>
+  <?php require_once  './includes/header.php'; ?>
 
   <!-- BANNER -->
-  <div class="banner">
-    <h1>Aprenda Online com os cursos do Formador Tiago Dias</h1>
-    <p>Desenvolva novas competências com a nossa plataforma</p>
-    <button class="btn">Explorar Cursos</button>
-    <button>Começar</button>
-  </div>
+  <section class="banner">
+    <div class="container banner-content">
+      <h1>Aprenda Online com os cursos do Formador Tiago Dias</h1>
+      <p>Desenvolva novas competências com a nossa plataforma</p>
+      <div class="botoes">
+        <button class="btn">Explorar Cursos<i class="fa-solid fa-arrow-right-long"></i></button>
+        <button>Começar</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      ---
+    </div>
+  </section>
 
   <!-- CURSOS -->
-  <h2 class="titulo">Cursos em Destaque</h2>
-
-  <div class="cursos">
-
-    <div class="card">
-      <img src="https://via.placeholder.com/300">
-      <h3>Desenvolvimento Web</h3>
-      <p>Aprenda HTML, CSS e JavaScript</p>
-      <span>€199.99</span>
-    </div>
-
-    <div class="card">
-      <img src="https://via.placeholder.com/300">
-      <h3>Design UI/UX</h3>
-      <p>Design moderno e profissional</p>
-      <span>€149.99</span>
-    </div>
-
-    <div class="card">
-      <img src="https://via.placeholder.com/300">
-      <h3>Marketing Digital</h3>
-      <p>Aprenda estratégias de marketing</p>
-      <span>€179.99</span>
-    </div>
-
-  </div>
+  <section>
+    
+     <h2 class="titulo">Cursos em Destaque</h2>
+     
+     <div class="cursos">
+       
+       <div class="card">
+         <img src="https://via.placeholder.com/300">
+         <h3>Desenvolvimento Web</h3>
+         <p>Aprenda HTML, CSS e JavaScript</p>
+         <span>€60.00</span>
+        </div>
+        
+        <div class="card">
+          <img src="https://via.placeholder.com/300">
+          <h3>Design UI/UX</h3>
+          <p>Design moderno e profissional</p>
+          <span>€60.00</span>
+        </div>
+        
+        <div class="card">
+          <img src="https://via.placeholder.com/300">
+          <h3>Marketing Digital</h3>
+          <p>Aprenda estratégias de marketing</p>
+          <span>€80.00</span>
+        </div>
+        
+      </div>
+  </section>
 
   <!-- CTA -->
   <div class="cta">
