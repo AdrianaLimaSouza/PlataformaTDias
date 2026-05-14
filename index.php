@@ -17,14 +17,40 @@
     </div>
   </section>
 
-  <section>
+  <section class="dashboard-index">
     <div>
-      ---
+      <div class="container dashboard-content">
+
+        <div class="dashboard-card">
+          <div></div>
+          <div>500+</div>
+          <div>Cursos Online</div>
+        </div>       
+        
+        <div class="dashboard-card">
+          <div></div>
+          <div>50k+</div>
+          <div>Alunos Ativos</div>
+        </div>       
+        
+        <div class="dashboard-card">
+          <div></div>
+          <div>200+</div>
+          <div>Formadores</div>
+        </div>       
+        
+        <div class="dashboard-card">
+          <div></div>
+          <div>95%</div>
+          <div>Taxa de Sucesso</div>
+        </div>       
+      </div>
+ 
     </div>
   </section>
 
   <!-- CURSOS -->
-  <section>
+  <section class="destaque-cursos">
     
      <h2 class="titulo">Cursos em Destaque</h2>
      
