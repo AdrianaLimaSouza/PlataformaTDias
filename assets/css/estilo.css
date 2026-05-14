@@ -87,7 +87,7 @@ li{
     background:none;
     cursor:pointer;
     font-size:14px;
-    color:#666;
+    color:#667;
     transition:0.3s;
     display:flex;
     align-items:center;
@@ -230,7 +230,7 @@ li{
 
 .dashboard-card p{
     margin:0 22px 20px 22px;
-    color:#666;
+    color:#667;
     line-height:26px;
     font-size:15px;
 }
@@ -303,7 +303,7 @@ li{
 
 .card p{
     margin:0 22px 20px 22px;
-    color:#666;
+    color:#667;
     line-height:26px;
     font-size:15px;
 }
@@ -383,10 +383,10 @@ li{
 
 .footer-content{
   margin-top: 50px;
-  padding: 50px auto 50px auto;
+  /*padding: 50px auto 50px auto;*/
   justify-content:center;
   display:flex;
-  gap:80px;
+  gap:150px;
   border-bottom: 0.1px solid #667;
   height: 110px;
 
@@ -399,7 +399,7 @@ li{
 }
 
 .footer-card{
-
+  margin: 0px;
 
 }
 .footer-card h4{
