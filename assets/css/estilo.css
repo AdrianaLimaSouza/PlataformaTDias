@@ -14,6 +14,9 @@ body{
     color:#222;
 }
 
+li{
+  list-style-type: none;
+}
 /* =========================
    CONTAINER
 ========================= */
@@ -61,7 +64,7 @@ body{
 
 .links a{
     text-decoration:none;
-    color:#666;
+    color:#667;
     font-size:14px;
     transition:0.3s;
 }
@@ -326,6 +329,9 @@ body{
     text-align:center;
     color:white;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* TITULO CTA */
@@ -351,10 +357,81 @@ body{
     font-size:15px;
     cursor:pointer;
     transition:0.3s;
+   
+}
+
+.btn-criarConta button{
+    display:flex;
+    align-items:center;
+    gap:8px;
 }
 
 .cta .btn:hover{
     background:#f2f2f2;
+}
+
+/* FOOTER */
+
+.footer-index{
+
+  background: black;
+  color: white;
+  width: 100%;
+  height: 260px;
+
+}
+
+.footer-content{
+  margin-top: 50px;
+  padding: 50px auto 50px auto;
+  justify-content:center;
+  display:flex;
+  gap:80px;
+  border-bottom: 0.1px solid #667;
+  height: 110px;
+
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-card{
+
+
+}
+.footer-card h4{
+  font-size:16px;
+  /*margin:22px 22px 12px 22px;*/
+  margin-bottom: 10px;
+}
+
+.footer-card p{
+    margin-bottom: 5px;
+    color:#667;
+    font-size:15px;
+}
+
+.footer-card li{
+  margin-bottom: 5px;
+  color:#667;
+  font-size:15px;
+}
+
+.footer-card a{
+  text-decoration:none;
+  font-size:14px;
+  color:#667;
+  transition:0.3s;
+}
+
+#autoral{
+  margin-top: 30px;
+  font-size: 14px;
+  color: #667;
+  
 }
 
 /* =========================

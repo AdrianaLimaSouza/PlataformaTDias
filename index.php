@@ -84,12 +84,16 @@
   <!-- CTA -->
   <section class="destaque-cta">
 
-    <div class="cta">
+    <div class="cta container">
       <h2>Pronto para começar?</h2>
       <p>Junte-se aos alunos que já transformaram as suas carreiras com os nossos cursos</p>
-      <button class="btn">Criar Conta</button>
+      <div class="btn-criarConta">
+        <button class="btn">Criar Conta<i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
     </div>
   </section>
 
 </body>
+<?php require_once  './includes/footer.php'; ?>
+
 </html>
