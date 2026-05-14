@@ -275,7 +275,7 @@ body{
 
 .cta{
     width:100%;
-    padding:90px 20px;
+    padding:50px 20px;
     background:linear-gradient(90deg,#0057e7 0%,#3f83f8 100%);
     text-align:center;
     color:white;
@@ -284,7 +284,7 @@ body{
 /* TITULO CTA */
 
 .cta h2{
-    font-size:48px;
+    font-size:30px;
     margin-bottom:30px;
 }
 
