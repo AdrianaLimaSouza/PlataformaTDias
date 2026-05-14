@@ -22,27 +22,28 @@
       <div class="container dashboard-content">
 
         <div class="dashboard-card">
-          <div></div>
-          <div>500+</div>
-          <div>Cursos Online</div>
+          <img src="./assets/img/agenda.png">
+          <h3>500+</h3>
+          <p>Cursos Online</p>
         </div>       
         
         <div class="dashboard-card">
+          <img src="./assets/img/alunos.png">
           <div></div>
-          <div>50k+</div>
-          <div>Alunos Ativos</div>
+          <h3>50k+</h3>
+          <p>Alunos Ativos</p>
         </div>       
         
         <div class="dashboard-card">
-          <div></div>
-          <div>200+</div>
-          <div>Formadores</div>
+          <img src="./assets/img/formador.png">
+          <h3>200+</h3>
+          <p>Formadores</p>
         </div>       
         
         <div class="dashboard-card">
-          <div></div>
-          <div>95%</div>
-          <div>Taxa de Sucesso</div>
+          <img src="./assets/img/graph.png">        
+          <h3>95%</h3>
+          <p>Taxa de Sucesso</p>
         </div>       
       </div>
  
@@ -81,10 +82,14 @@
   </section>
 
   <!-- CTA -->
-  <div class="cta">
-    <h2>Pronto para começar?</h2>
-    <button class="btn">Criar Conta</button>
-  </div>
+  <section class="destaque-cta">
+
+    <div class="cta">
+      <h2>Pronto para começar?</h2>
+      <p>Junte-se aos alunos que já transformaram as suas carreiras com os nossos cursos</p>
+      <button class="btn">Criar Conta</button>
+    </div>
+  </section>
 
 </body>
 </html>
