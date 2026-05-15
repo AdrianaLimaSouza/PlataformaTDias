@@ -29,6 +29,6 @@
             </div>       
         </div>
 
-      <div id="autoral">&copy; 2026 TDiasPlataforma. Todos os direitos reervados.</div>
+      <div id="autoral">&copy; <?php echo date("Y"); ?> TDiasPlataforma. Todos os direitos reservados.</div>
     </div>
   </section>
