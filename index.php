@@ -52,10 +52,13 @@
 
   <!-- CURSOS -->
   <section class="destaque-cursos">
-    
-     <h2 class="titulo">Cursos em Destaque</h2>
+
+    <div class="titulo">
+      <h3>Cursos em Destaque</h3>
+      <p>Descubra os cursos mais escolhidos da nossa Plataforma</p>
+    </div>
      
-     <div class="cursos">
+    <div class="cursos">
        
        <div class="card">
          <img src="https://via.placeholder.com/300">
@@ -77,8 +80,11 @@
           <p>Aprenda estratégias de marketing</p>
           <span>€80.00</span>
         </div>
-        
-      </div>
+    </div>
+       
+      
+    <button id="btn-destaque"><a href="cursos.php"> Ver Todos os Cursos<i class="fa-solid fa-arrow-right-long"></i></a></button>
+     
   </section>
 
   <!-- CTA -->

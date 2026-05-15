@@ -29,6 +29,6 @@
             </div>       
         </div>
 
-      <div id="autoral">@ 2026 TDiasPlataforma. Todos os direitos reervados.</div>
+      <div id="autoral">&copy; 2026 TDiasPlataforma. Todos os direitos reervados.</div>
     </div>
   </section>

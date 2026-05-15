@@ -17,6 +17,10 @@ body{
 li{
   list-style-type: none;
 }
+
+a{
+  text-decoration:none;
+}
 /* =========================
    CONTAINER
 ========================= */
@@ -247,14 +251,48 @@ li{
 
 .destaque-cursos{
   background: rgba(255,255,255,0.4);
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .titulo{
     text-align:center;
     margin-top:90px;
     margin-bottom:50px;
-    font-size:42px;
+    font-size:20px;
     color:#1d1d1d;
+}
+.titulo p{
+  margin:0 22px 20px 22px;
+  color:#667;
+  line-height:26px;
+  font-size:15px;
+}
+
+
+#btn-destaque{
+    height:45px;
+    padding:0 32px;
+    border-radius:10px;
+    font-size:14px;
+    cursor:pointer;
+    background:linear-gradient(90deg,#0057e7 0%,#3f83f8 100%);
+    border:none;
+    margin-bottom: 50px;
+}
+  
+  #btn-destaque a{
+    color:white;
+    display:flex;
+    align-items:center;
+    gap: 8px;
+  }
+
+#btn-destaque:hover{
+    
+    transition:0.3s;
+    background:rgb(56, 63, 206);
+    
 }
 
 /* =========================
@@ -263,7 +301,7 @@ li{
 
 .cursos{
     width:1200px;
-    margin:0 auto 110px auto;
+    margin:0 auto 80px auto;
     display:flex;
     justify-content:center;
     gap:35px;
@@ -295,7 +333,7 @@ li{
 /* TITULO CARD */
 
 .card h3{
-    font-size:26px;
+    font-size:20px;
     margin:22px 22px 12px 22px;
 }
 
