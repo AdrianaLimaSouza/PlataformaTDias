@@ -39,6 +39,10 @@ a{
     height:72px;
     background:#fff;
     border-bottom:1px solid #ececec;
+    /* para fazer o header grudar no top */
+    position: sticky;
+    top: 0;
+    z-index:inherit;
 }
 
 /* MENU */
