@@ -19,9 +19,9 @@
         <div class="links">
             <a href="index.php">Início</a>
             <a href="cursos.php">Cursos</a>
-            <a href="#">Área do Aluno</a>
-            <a href="#">Área do Formador</a>
-            <a href="#">Contacto</a>
+            <a href="areaAluno.php">Área do Aluno</a>
+            <a href="areaFormador.php">Área do Formador</a>
+            <a href="contacto.php">Contacto</a>
         </div>
 
         <div class="acoes">

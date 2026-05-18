@@ -11,7 +11,7 @@
       <h1>Aprenda Online com os cursos do Formador Tiago Dias</h1>
       <p>Desenvolva novas competências com a nossa plataforma</p>
       <div class="botoes">
-        <button class="btn">Explorar Cursos<i class="fa-solid fa-arrow-right-long"></i></button>
+        <button class="btn"><a id="btn-ExC" href="cursos.php">Explorar Cursos<i class="fa-solid fa-arrow-right-long"></i></a></button>
         <button>Começar</button>
       </div>
     </div>
@@ -61,21 +61,21 @@
     <div class="cursos">
        
        <div class="card">
-         <img src="https://via.placeholder.com/300">
+         <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
          <h3>Desenvolvimento Web</h3>
          <p>Aprenda HTML, CSS e JavaScript</p>
          <span>€60.00</span>
         </div>
         
         <div class="card">
-          <img src="https://via.placeholder.com/300">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
           <h3>Design UI/UX</h3>
           <p>Design moderno e profissional</p>
           <span>€60.00</span>
         </div>
         
         <div class="card">
-          <img src="https://via.placeholder.com/300">
+         <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
           <h3>Marketing Digital</h3>
           <p>Aprenda estratégias de marketing</p>
           <span>€80.00</span>
