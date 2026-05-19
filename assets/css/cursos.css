@@ -1,0 +1,125 @@
+/* HERO CURSOS */
+.banner-cursos{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.banner-cursos h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.banner-cursos p{
+    font-size:16px;
+}
+
+/* PESQUISA */
+.pesquisa-cursos{
+    background:white;
+    padding:30px 0;
+}
+
+.pesquisa-area{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.pesquisa-area input,
+.pesquisa-area select{
+    padding:12px;
+    width:250px;
+    border:1px solid #ddd;
+    border-radius:6px;
+}
+
+.pesquisa-area button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* PÁGINA CURSOS */
+.pagina-cursos{
+    padding:60px 20px;
+}
+
+.cursos{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* CARD */
+.card{
+    background:white;
+    width:300px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+/* INFO */
+.info-card{
+    padding:20px;
+}
+
+.categoria{
+    background:#e0edff;
+    color:#2563eb;
+    font-size:12px;
+    padding:5px 10px;
+    border-radius:20px;
+}
+
+.info-card h3{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.info-card p{
+    color:#666;
+    font-size:14px;
+    line-height:1.5;
+}
+
+/* FOOTER CARD */
+.cursos-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+
+.preco{
+    color:#2563eb;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.btn-curso{
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:6px;
+    font-size:14px;
+}

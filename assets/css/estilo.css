@@ -20,6 +20,7 @@ li{
 
 a{
   text-decoration:none;
+
 }
 /* =========================
    CONTAINER
@@ -94,32 +95,40 @@ a{
     border:none;
     background:none;
     cursor:pointer;
-    font-size:14px;
-    color:#667;
-    transition:0.3s;
+    font-size:14px;  
+}
+
+.acoes button a{
+     color:#667;
     display:flex;
     align-items:center;
     gap:8px;
-
 }
 
-.acoes button:hover{
+.acoes button a:hover{
     color:#1457db;
+    transition:0.3s;
 }
+
 
 /* BOTÃO REGISTAR */
 
 .acoes .btn{
     background:#1457db;
-    color:white;
     padding:11px 20px;
     border-radius:8px;
     font-weight:bold;
 }
 
-.acoes .btn:hover{
-    background:#0f49bb;
+ #btn-registar{
     color:white;
+    text-decoration: none;
+    
+ }
+
+.acoes .btn a:hover{
+    background:#0f49bb;
+    transition:0.3s;
 }
 
 /* =========================
@@ -206,6 +215,10 @@ a{
 
 .banner button:last-child:hover{
   background:rgba(255,255,255,0.08);
+}
+
+#button-comecar a{
+    color:white;
 }
 
 /*DASHBOARD */

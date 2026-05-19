@@ -5,71 +5,243 @@
 <body>
 
     <?php require_once  './includes/header.php'; ?>
+    <link rel="stylesheet" href="./assets/css/cursos.css">
 
-    <!-- TÍTULO -->
-    <section class="topo-cursos">
+    <!-- HERO CURSOS -->
+<section class="banner-cursos">
+
+    <div class="container">
 
         <h1>Todos os Cursos</h1>
-        <p>Encontre o curso perfeito para os seus objetivos</p>
-    </section>
 
-    <!-- PESQUISA -->
-    <section class="pesquisa">
+        <p>
+            Explore os nossos cursos online e desenvolva novas competências
+        </p>
+
+    </div>
+
+</section>
+
+<!-- PESQUISA -->
+<section class="pesquisa-cursos">
+
+    <div class="container pesquisa-area">
 
         <input type="text" placeholder="Pesquisar cursos...">
-    </section>
-
-    <!-- FILTROS -->
-    <section class="filtros">
 
         <select>
-            <option>Categoria: Todas</option>
+            <option>Todas Categorias</option>
             <option>Programação</option>
             <option>Design</option>
             <option>Marketing</option>
-            <option>Fotografia</option>
-            <option>Negócios</option>
         </select>
 
-        <select>
-            <option>Nível: Todos</option>
-            <option>Iniciante</option>
-            <option>Intermédio</option>
-            <option>Avançado</option>
-        </select>
+        <button>Pesquisar</button>
 
-    </section>
+    </div>
 
-    <!-- CURSOS -->
-    <section class="lista-cursos">
+</section>
 
-        <!-- CURSO 1 -->
-        <div class="card-curso">
+<!-- LISTA CURSOS -->
+<section class="pagina-cursos">
 
-            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+    <div class="container">
 
-            <div class="conteudo-curso">
+        <div class="cursos">
 
-                <div class="top-card">
-                    <span class="categoria">Programação</span>
-                    <span class="nivel">Iniciante</span>
+            <!-- CARD -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+                <div class="info-card">
+
+                    <span class="categoria">
+                        Programação
+                    </span>
+
+                    <h3>Desenvolvimento Web</h3>
+
+                    <p>
+                        Aprenda HTML, CSS e JavaScript do zero.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €60.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
+
                 </div>
 
-                <h3>Desenvolvimento Web Completo</h3>
+            </div>
 
-                <p>
-                    Aprenda HTML, CSS, JavaScript, React e Node.js
-                </p>
+            <!-- CARD -->
+            <div class="card">
 
-                <p class="autor">
-                    Por João Silva • 40 horas
-                </p>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
 
-                <div class="rodape-card">
+                <div class="info-card">
 
-                    <span class="avaliacao">⭐ 4.8</span>
+                    <span class="categoria">
+                        Design
+                    </span>
 
-                    <span class="preco">€199.99</span>
+                    <h3>Design UI/UX</h3>
+
+                    <p>
+                        Crie interfaces modernas e profissionais.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €75.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978">
+
+                <div class="info-card">
+
+                    <span class="categoria">
+                        Marketing
+                    </span>
+
+                    <h3>Marketing Digital</h3>
+
+                    <p>
+                        Aprenda estratégias modernas de marketing.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €80.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+                <div class="info-card">
+
+                    <span class="categoria">
+                        Base de Dados
+                    </span>
+
+                    <h3>MySQL Completo</h3>
+
+                    <p>
+                        Aprenda modelação e consultas SQL.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €90.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+
+                <div class="info-card">
+
+                    <span class="categoria">
+                        Negócios
+                    </span>
+
+                    <h3>Empreendedorismo</h3>
+
+                    <p>
+                        Crie e desenvolva o seu próprio negócio.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €55.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+
+                <div class="info-card">
+
+                    <span class="categoria">
+                        Programação
+                    </span>
+
+                    <h3>PHP para Iniciantes</h3>
+
+                    <p>
+                        Desenvolva websites dinâmicos com PHP.
+                    </p>
+
+                    <div class="cursos-card">
+
+                        <span class="preco">
+                            €70.00
+                        </span>
+
+                        <a href="#" class="btn-curso">
+                            Ver Curso
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -77,177 +249,12 @@
 
         </div>
 
-        <!-- CURSO 2 -->
-        <div class="card-curso">
+    </div>
 
-            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6">
+</section>
 
-            <div class="conteudo-curso">
-
-                <div class="top-card">
-                    <span class="categoria">Design</span>
-                    <span class="nivel">Intermédio</span>
-                </div>
-
-                <h3>Design UI/UX Profissional</h3>
-
-                <p>
-                    Domine os princípios do design moderno
-                </p>
-
-                <p class="autor">
-                    Por Maria Santos • 25 horas
-                </p>
-
-                <div class="rodape-card">
-
-                    <span class="avaliacao">⭐ 4.9</span>
-
-                    <span class="preco">€149.99</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- CURSO 3 -->
-        <div class="card-curso">
-
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
-
-            <div class="conteudo-curso">
-
-                <div class="top-card">
-                    <span class="categoria">Marketing</span>
-                    <span class="nivel">Intermédio</span>
-                </div>
-
-                <h3>Marketing Digital Avançado</h3>
-
-                <p>
-                    Estratégias modernas de marketing digital
-                </p>
-
-                <p class="autor">
-                    Por Pedro Costa • 30 horas
-                </p>
-
-                <div class="rodape-card">
-
-                    <span class="avaliacao">⭐ 4.7</span>
-
-                    <span class="preco">€179.99</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- CURSO 4 -->
-        <div class="card-curso">
-
-            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
-
-            <div class="conteudo-curso">
-
-                <div class="top-card">
-                    <span class="categoria">Programação</span>
-                    <span class="nivel">Intermédio</span>
-                </div>
-
-                <h3>Python para Data Science</h3>
-
-                <p>
-                    Machine learning e análise de dados
-                </p>
-
-                <p class="autor">
-                    Por Ana Rodrigues • 35 horas
-                </p>
-
-                <div class="rodape-card">
-
-                    <span class="avaliacao">⭐ 4.9</span>
-
-                    <span class="preco">€189.99</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- CURSO 5 -->
-        <div class="card-curso">
-
-            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32">
-
-            <div class="conteudo-curso">
-
-                <div class="top-card">
-                    <span class="categoria">Fotografia</span>
-                    <span class="nivel">Iniciante</span>
-                </div>
-
-                <h3>Fotografia Digital</h3>
-
-                <p>
-                    Do básico ao avançado em fotografia
-                </p>
-
-                <p class="autor">
-                    Por Carlos Mendes • 20 horas
-                </p>
-
-                <div class="rodape-card">
-
-                    <span class="avaliacao">⭐ 4.8</span>
-
-                    <span class="preco">€129.99</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- CURSO 6 -->
-        <div class="card-curso">
-
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
-
-            <div class="conteudo-curso">
-
-                <div class="top-card">
-                    <span class="categoria">Negócios</span>
-                    <span class="nivel">Avançado</span>
-                </div>
-
-                <h3>Excel Avançado para Negócios</h3>
-
-                <p>
-                    Fórmulas, dashboards e análise de dados
-                </p>
-
-                <p class="autor">
-                    Por Alves • 18 horas
-                </p>
-
-                <div class="rodape-card">
-
-                    <span class="avaliacao">⭐ 4.7</span>
-
-                    <span class="preco">€119.99</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+<?php require_once './includes/footer.php'; ?>
 
 </body>
+
 </html>

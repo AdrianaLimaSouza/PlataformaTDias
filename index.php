@@ -12,7 +12,7 @@
       <p>Desenvolva novas competências com a nossa plataforma</p>
       <div class="botoes">
         <button class="btn"><a id="btn-ExC" href="cursos.php">Explorar Cursos<i class="fa-solid fa-arrow-right-long"></i></a></button>
-        <button>Começar</button>
+        <button id="button-comecar"><a href="cursos.php">Começar</a></button>
       </div>
     </div>
   </section>

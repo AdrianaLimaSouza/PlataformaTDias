@@ -25,8 +25,8 @@
         </div>
 
         <div class="acoes">
-            <button><i class="fa-regular fa-user"></i>Entrar</button>
-            <button class="btn">Registar</button>
+            <button><a href="login.php"><i class="fa-regular fa-user"></i>Entrar</a></button>
+            <button class="btn"><a id="btn-registar" href="registo.php">Registar</a></button>
         </div>
 
     </div>
