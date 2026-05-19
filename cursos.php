@@ -22,32 +22,43 @@
 
 </section>
 
-<!-- PESQUISA -->
-<section class="pesquisa-cursos">
+<!-- LISTA CURSOS -->
+<section class="pagina-cursos">
+         <!-- PESQUISA -->
+    <div class="pesquisa-cursos">
 
-    <div class="container pesquisa-area">
+        <div class="container ">
 
-        <input type="text" placeholder="Pesquisar cursos...">
+            <div class="input-pesquisa">
+                <i class="fa-solid fa-magnifying-glass"></i>
 
-        <select>
-            <option>Todas Categorias</option>
-            <option>Programação</option>
-            <option>Design</option>
-            <option>Marketing</option>
-        </select>
+                <input type="text" placeholder="Pesquisar cursos...">
+            </div>
+        </div>
+        <div class="container pesquisa-area">
+            <div class="filter"><i class="fa-solid fa-filter"></i> Filtros:</div>
+            <select>
+                <option>Categorias:Todas </option>
+                <option>Programação</option>
+                <option>Design</option>
+                <option>Marketing</option>
+            </select>
 
-        <button>Pesquisar</button>
+            <select>
+                <option>Nível:Todos</option>
+                <option>Iniciante</option>
+                <option>Intermediário</option>
+                <option>Avançado</option>
+            </select>
+
+        </div>
 
     </div>
 
-</section>
-
-<!-- LISTA CURSOS -->
-<section class="pagina-cursos">
-
     <div class="container">
+        <div id="contagem-cursos">6 cursos encontrados</div>
 
-        <div class="cursos">
+        <div class="container cursos">
 
             <!-- CARD -->
             <div class="card">
@@ -56,9 +67,11 @@
 
                 <div class="info-card">
 
-                    <span class="categoria">
-                        Programação
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Programação</div>
+                        <div class="categoria">Iniciante</div>
+
+                    </div>
 
                     <h3>Desenvolvimento Web</h3>
 
