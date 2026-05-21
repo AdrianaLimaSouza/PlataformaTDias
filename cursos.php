@@ -8,18 +8,13 @@
     <link rel="stylesheet" href="./assets/css/cursos.css">
 
     <!-- HERO CURSOS -->
-<section class="banner-cursos">
-
+<section class="banner">
     <div class="container">
-
         <h1>Todos os Cursos</h1>
-
         <p>
             Explore os nossos cursos online e desenvolva novas competências
         </p>
-
     </div>
-
 </section>
 
 <!-- LISTA CURSOS -->
@@ -68,9 +63,8 @@
                 <div class="info-card">
 
                     <div class="destaque-categoria">
-                        <div class="categoria">Programação</div>
-                        <div class="categoria">Iniciante</div>
-
+                        <div class="categoria">Programação Web</div>
+                        <div class="nivel">Iniciante</div>
                     </div>
 
                     <h3>Desenvolvimento Web</h3>
@@ -78,6 +72,8 @@
                     <p>
                         Aprenda HTML, CSS e JavaScript do zero.
                     </p>
+
+                    <div class="info-formador">Por Tiago Dias - 40 horas</div>
 
                     <div class="cursos-card">
 
@@ -101,16 +97,18 @@
                 <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
 
                 <div class="info-card">
-
-                    <span class="categoria">
-                        Design
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Design</div>
+                        <div class="nivel">Iniciante</div>
+                    </div>
 
                     <h3>Design UI/UX</h3>
 
                     <p>
                         Crie interfaces modernas e profissionais.
                     </p>
+
+                    <div class="info-formador">Por Tiago Dias - 50 horas</div>
 
                     <div class="cursos-card">
 
@@ -135,15 +133,17 @@
 
                 <div class="info-card">
 
-                    <span class="categoria">
-                        Marketing
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Marketing</div>
+                        <div class="nivel">Iniciante</div>
+                    </div>
 
                     <h3>Marketing Digital</h3>
 
                     <p>
                         Aprenda estratégias modernas de marketing.
                     </p>
+                    <div class="info-formador">Por Tiago Dias - 40 horas</div>
 
                     <div class="cursos-card">
 
@@ -168,15 +168,18 @@
 
                 <div class="info-card">
 
-                    <span class="categoria">
-                        Base de Dados
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Base de Dados</div>
+                        <div class="nivel">Iniciante</div>
+                    </div>
 
                     <h3>MySQL Completo</h3>
 
                     <p>
                         Aprenda modelação e consultas SQL.
                     </p>
+
+                    <div class="info-formador">Por Tiago Dias - 50 horas</div>
 
                     <div class="cursos-card">
 
@@ -201,15 +204,17 @@
 
                 <div class="info-card">
 
-                    <span class="categoria">
-                        Negócios
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Negócios</div>
+                        <div class="nivel">Iniciante</div>
+                    </div>
 
                     <h3>Empreendedorismo</h3>
 
                     <p>
                         Crie e desenvolva o seu próprio negócio.
                     </p>
+                    <div class="info-formador">Por Tiago Dias - 40 horas</div>
 
                     <div class="cursos-card">
 
@@ -234,15 +239,17 @@
 
                 <div class="info-card">
 
-                    <span class="categoria">
-                        Programação
-                    </span>
+                    <div class="destaque-categoria">
+                        <div class="categoria">Programação</div>
+                        <div class="nivel">Iniciante</div>
+                    </div>
 
                     <h3>PHP para Iniciantes</h3>
 
                     <p>
                         Desenvolva websites dinâmicos com PHP.
                     </p>
+                    <div class="info-formador">Por Tiago Dias - 50 horas</div>
 
                     <div class="cursos-card">
 

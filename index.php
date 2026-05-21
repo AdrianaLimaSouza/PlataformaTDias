@@ -6,8 +6,8 @@
   <?php require_once  './includes/header.php'; ?>
 
   <!-- BANNER -->
-  <section class="banner">
-    <div class="container banner-content">
+  <section class="banner-index">
+    <div class="container banner-index-content">
       <h1>Aprenda Online com os cursos do Formador Tiago Dias</h1>
       <p>Desenvolva novas competências com a nossa plataforma</p>
       <div class="botoes">

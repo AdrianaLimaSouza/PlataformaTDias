@@ -136,6 +136,21 @@ a{
 ========================= */
 
 .banner{
+    background:white;
+    color:black;
+    padding:20px 20px;
+}
+
+.banner h1{
+    font-size:26px;
+    margin-bottom:15px;
+}
+
+.banner p{
+    font-size:17px;
+}
+
+.banner-index{
     width:100%;
     height:360px;
     background:linear-gradient(90deg,#0057e7 0%,#3f83f8 100%);
@@ -143,7 +158,7 @@ a{
 
 /* CONTEÚDO BANNER */
 
-.banner-content{
+.banner-index-content{
     height:370px;
     display:flex;
     flex-direction:column;
@@ -153,7 +168,7 @@ a{
 
 /* TITULO */
 
-.banner h1{
+.banner-index h1{
     width:760px;
     font-size:42px;
     font-weight:600;
@@ -162,7 +177,7 @@ a{
 
 /* TEXTO */
 
-.banner p{
+.banner-index p{
     font-size:18px;
     color:#ebebeb;
     margin-bottom:35px;
@@ -176,7 +191,7 @@ a{
     gap:18px;
 }
 
-.banner button{
+.banner-index button{
     height:52px;
     padding:0 32px;
     border-radius:10px;
@@ -187,13 +202,13 @@ a{
 
 /* BOTÃO BRANCO (EXPLORAR CURSOS)*/
 
-.banner .btn{
+.banner-index .btn{
     background:white;
     border:none;
     
 }
 
-.banner .btn:hover{
+.banner-index .btn:hover{
     background:#f2f2f2;
 }
 
@@ -207,13 +222,13 @@ a{
 
 /* BOTÃO TRANSPARENTE (COMEÇAR) */
 
-.banner button:last-child{
+.banner-index button:last-child{
     background:transparent;
     border:1px solid rgba(255,255,255,0.4);
     color:white;
 }
 
-.banner button:last-child:hover{
+.banner-index button:last-child:hover{
   background:rgba(255,255,255,0.08);
 }
 
@@ -501,7 +516,7 @@ a{
         width:95%;
     }
 
-    .banner h1{
+    .banner-index h1{
         width:100%;
         font-size:56px;
         line-height:62px;
@@ -528,12 +543,12 @@ a{
         align-items:center;
     }
 
-    .banner h1{
+    .banner-index h1{
         font-size:42px;
         line-height:48px;
     }
 
-    .banner p{
+    .banner-index p{
         font-size:17px;
     }
 
@@ -542,7 +557,7 @@ a{
         width:100%;
     }
 
-    .banner button{
+    .banner-index button{
         width:100%;
     }
 
