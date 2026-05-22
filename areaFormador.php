@@ -5,18 +5,22 @@
   <?php require_once  './includes/header.php'; ?>
 
   <link rel="stylesheet" href="./assets/css/alunos.css">
-  <link rel="stylesheet" href="./assets/css/cursos.css">
+  <link rel="stylesheet" href="./assets/css/formador.css">
 
     <!-- Titulo AreaFormador -->
     <section class="banner">
 
-        <div class="container">
+        <div class="container ">
 
-            <h1>Área do Aluno</h1>
-
-            <p>
-                Bem-vindo de volta! Continue a sua aprendizagem
-            </p>
+          <div class="gestao-formador">
+            <div>
+              <h1>Área do Formador</h1>
+              <p>Gerir os seus cursos e acompanhar o desempenho</p>
+            </div>
+          
+              <button class="novo-curso"><a href="#"><i class="fa-solid fa-circle-plus"></i>Criar Novo Curso</a></button>
+            
+          </div>
 
         </div>
 
@@ -24,30 +28,30 @@
 
     <section>
         <div>
-            <div class="container dashboard-content-alunos">
+            <div class="container dashboard-content-formador">
 
-                <div class="dashboard-card dashboard-card-alunos">
-                    <img class="estatistica-alunos-img" src="./assets/img/agenda.png">
-                    <div class="estatistica-alunos">3</div>
-                    <p>Cursos Ativos</p>
+                <div class="dashboard-card dashboard-card-formador">
+                    <img class="estatistica-formador-img" src="./assets/img/agenda.png">
+                    <div class="estatistica-formador">12</div>
+                    <p>Cursos Publicados</p>
                 </div>
 
-                <div class="dashboard-card dashboard-card-alunos">
-                    <img class="estatistica-alunos-img" src="./assets/img/circleCheck.png">
-                    <div class="estatistica-alunos">12</div>
-                    <p>Cursos Concluídos</p>
+                <div class="dashboard-card dashboard-card-formador">
+                    <img class="estatistica-formador-img" src="./assets/img/alunos.png">
+                    <div class="estatistica-formador">3.5k</div>
+                    <p>Total de Alunos</p>
                 </div>
 
-                <div class="dashboard-card dashboard-card-alunos">
-                    <img class="estatistica-alunos-img" src="./assets/img/clock.png">
-                    <div class="estatistica-alunos">145</div>
-                    <p>Horas de Estudo</p>
+                <div class="dashboard-card dashboard-card-formador">
+                    <img class="estatistica-formador-img" src="./assets/img/visualizar.png">
+                    <div class="estatistica-formador">45.2k</div>
+                    <p>Visualizações</p>
                 </div>
 
-                <div class="dashboard-card dashboard-card-alunos">
-                    <img class="estatistica-alunos-img" src="./assets/img/certificado.png">
-                    <div class="estatistica-alunos">8</div>
-                    <p>Certificados</p>
+                <div class="dashboard-card dashboard-card-formador">
+                    <img class="estatistica-formador-img" src="./assets/img/cifrao.png">
+                    <div class="estatistica-formador">€12.5k</div>
+                    <p>Ganhos Este Mês</p>
                 </div>
             </div>
 

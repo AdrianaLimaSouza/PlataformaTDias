@@ -15,3 +15,39 @@
     overflow:hidden;
     transition:0.3s;
 }
+.gestao-formador{
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.novo-curso{
+    background:#1457db;
+    border-radius:8px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    
+}
+.novo-curso a{
+    justify-content: center;
+    font-size: 15px;
+    align-items:center;
+    color:white;
+    display: flex;
+    gap: 8px;
+}
+.novo-curso:hover{
+    background:#0f49bb;
+    transition:0.3s;
+}
+.estatistica-formador{
+  font-size:26px;
+  font-style: normal;
+  margin:10px 10px 5px 22px;
+}
+.estatistica-formador-img{
+    width:53px;
+    height:53px;
+    object-fit:cover;
+    margin:15px 10px 0px 22px;
+}
