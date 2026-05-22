@@ -1,0 +1,17 @@
+.dashboard-content-formador{
+  padding: 50px auto 50px auto;
+  justify-content:center;
+  display:flex;
+  gap:30px;
+}
+.dashboard-card-formador{
+    margin: 50px auto 50px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: left;
+    width:300px;
+    height: 160px;
+    background:white;
+    overflow:hidden;
+    transition:0.3s;
+}

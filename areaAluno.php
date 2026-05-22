@@ -23,7 +23,7 @@
 
     <section>
         <div>
-            <div class="container dashboard-content">
+            <div class="container dashboard-content-alunos">
 
                 <div class="dashboard-card dashboard-card-alunos">
                     <img class="estatistica-alunos-img" src="./assets/img/agenda.png">
@@ -53,7 +53,11 @@
         </div>
 
         <div class="container">
-            <div class="informe-alunos">Continue a Aprender</div>
+
+            <div class="convida-alunos">
+                <div class="informe-alunos">Continue a Aprender</div>
+                <div id="ver-todos"><a href="cursos.php">Ver Todos</a></div>
+            </div>
 
             <div class="container cursos">
 
@@ -70,7 +74,7 @@
 
                         <div class="cursos-card-alunos">
 
-                            <a href="#" class="btn-curso-alunos">
+                            <a href="cursos.php" class="btn-curso-alunos">
                                 Continuar Curso
                             </a>
 
@@ -93,7 +97,7 @@
 
                         <div class="cursos-card-alunos">
 
-                            <a href="#" class="btn-curso-alunos">
+                            <a href="cursos.php" class="btn-curso-alunos">
                                 Continuar Curso
                             </a>
                         </div>
@@ -114,7 +118,7 @@
 
                         <div class="cursos-card-alunos">
 
-                            <a href="#" class="btn-curso-alunos">
+                            <a href="cursos.php" class="btn-curso-alunos">
                                 Continuar Curso
                             </a>
                         </div>

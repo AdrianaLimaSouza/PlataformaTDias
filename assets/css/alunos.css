@@ -1,4 +1,9 @@
-
+.dashboard-content-alunos{
+  padding: 50px auto 50px auto;
+  justify-content:center;
+  display:flex;
+  gap:30px;
+}
 .dashboard-card-alunos{
     margin: 50px auto 50px auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -27,6 +32,15 @@
     margin-bottom: 20px;
     font-weight: bold;
 }
+.convida-alunos{
+  display:flex;
+  width: 100%;
+  justify-content:space-between;
+}
+#ver-todos{
+  font-size: 15px;
+}
+
 .card-alunos{
     width:360px;
     background:white;
