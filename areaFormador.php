@@ -112,6 +112,72 @@
       </div>
     </div>
   </section>
+  <section class="dashboard-extra">
+
+    <div class="container extra-grid">
+        <!-- AVALIAÇÕES -->
+        <div class="box-avaliacoes">
+            <h2>Avaliações Recentes</h2>
+            <div class="avaliacao">
+                <div class="avaliacao-topo">
+                    <h4>Maria Silva</h4>
+                    <span class="estrelas">★★★★★</span>
+                </div>
+                <p class="curso-avaliado">
+                    Desenvolvimento Web Completo
+                </p>
+                <p>
+                    Excelente curso! Muito completo e bem explicado.
+                </p>
+            </div>
+            <div class="avaliacao">
+                <div class="avaliacao-topo">
+                    <h4>João Costa</h4>
+                    <span class="estrelas">★★★★☆</span>
+               </div>
+                <p class="curso-avaliado">
+                    Python para Data Science
+                </p>
+                <p>
+                    Bom conteúdo, mas poderia ter mais exemplos práticos.
+                </p>
+            </div>
+            <div class="avaliacao">
+                <div class="avaliacao-topo">
+                    <h4>Ana Santos</h4>
+                    <span class="estrelas">★★★★★</span>
+                </div>
+                <p class="curso-avaliado">
+                    Design UI/UX Profissional
+                </p>
+                <p>
+                    Superou as minhas expectativas. Recomendo!
+                </p>
+            </div>
+        </div>
+
+        <!-- ESTATÍSTICAS -->
+        <div class="box-vendas">
+            <h2>Estatísticas de Vendas</h2>
+            <div class="vendas">
+                <span>Vendas Hoje</span>
+                <strong>€245</strong>
+            </div>
+            <div class="vendas">
+                <span>Vendas Esta Semana</span>
+                <strong>€2,340</strong>
+            </div>
+            <div class="vendas">
+                <span>Vendas Este Mês</span>
+                <strong>€12,560</strong>
+            </div>
+            <div class="vendas total">
+                <span>Total de Vendas</span>
+                <strong>€45,890</strong>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
