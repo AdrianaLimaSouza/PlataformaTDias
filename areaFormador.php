@@ -81,10 +81,10 @@
                   <p>40 horas</p>
                 </div>
               </td>
-              <td><span class="categoria-formador">Programação</span></td>
+              <td><span class="tag azul">Programação</span></td>
               <td><i class="fa-solid fa-users"></i> 1245</td>
               <td><i class="fa-solid fa-star estrela"></i> 4.8</td>
-              <td><span class="estado-formador">Publicado</span></td>
+              <td><span class="tag verde">Publicado</span></td>
               <td class="acoes-formador">
                 <i class="fa-regular fa-pen-to-square editar"></i>
                 <i class="fa-regular fa-trash-can apagar"></i>
@@ -98,10 +98,10 @@
                   <p>25 horas</p>
                 </div>
               </td>
-              <td><span class="categoria-formador">Design</span></td>
+              <td><span class="tag azul">Design</span></td>
               <td><i class="fa-solid fa-users"></i> 892</td>
               <td><i class="fa-solid fa-star estrela"></i> 4.9</td>
-              <td><span class="estado-formador">Publicado</span></td>
+              <td><span class="tag verde">Publicado</span></td>
               <td class="acoes-formador">
                 <i class="fa-regular fa-pen-to-square editar"></i>
                 <i class="fa-regular fa-trash-can apagar"></i>
