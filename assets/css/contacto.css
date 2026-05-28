@@ -1,0 +1,134 @@
+/* CONTACTO */
+.pagina-contacto{
+    padding:60px 20px;
+    background:#f5f5f5;
+}
+
+/* GRID */
+.contacto-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+/* CAIXAS */
+.contacto-form,
+.box-info{
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.contacto-form h2,
+.horario-box h2{
+    font-size:22px;
+    margin-bottom:30px;
+}
+.box-info h2{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+/* CAMPOS */
+.linha-dupla{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.campo{
+    margin-bottom:22px;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:500;
+}
+
+.campo input,
+.campo select,
+.campo textarea{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:16px;
+    font-size:15px;
+    outline:none;
+}
+
+.campo textarea{
+    height:170px;
+    resize:none;
+}
+
+/* BOTÃO */
+.btn-enviar{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:16px 28px;
+    border-radius:12px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* INFO */
+.item-info{
+    display:flex;
+    gap:16px;
+    margin-bottom:28px;
+}
+
+.item-info i{
+    width:42px;
+    height:42px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:12px;
+    font-size:18px;
+}
+
+/* CORES ÍCONES */
+.azul{
+    background:#dbeafe;
+    color:#2563eb;
+}
+
+.verde{
+    background:#dcfce7;
+    color:#16a34a;
+}
+
+.roxo{
+    background:#f3e8ff;
+    color:#9333ea;
+}
+
+.laranja{
+    background:#ffedd5;
+    color:#ea580c;
+}
+
+/* HORÁRIO */
+.motivacao-box{
+    margin-top:25px;
+    background:#2563eb;
+    color:white;
+    border-radius:18px;
+    padding:30px;
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+
+}
+
+.linha-motivacao{
+    margin-bottom:18px;
+    margin-top: 20px;
+}
+.motivacao-box p{
+   font-weight: bold;
+}
