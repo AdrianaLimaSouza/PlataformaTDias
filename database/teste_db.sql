@@ -19,7 +19,7 @@ INSERT INTO categorias (id, nome) VALUES
 
 
 INSERT INTO formador
-(id,nome,telefone,morada,`e-mail`,password)
+(id,nome,telefone,morada,email,password)
 VALUES
 (1,'Tiago Dias',912345678,'Lisboa','tiago@tdias.pt','123456'),
 (2,'Maria Santos',923456789,'Porto','maria@tdias.pt','123456'),
@@ -31,7 +31,7 @@ VALUES
 
 
 INSERT INTO alunos
-(id,nome,telefone,morada,`e-mail`,password)
+(id,nome,telefone,morada,email,password)
 VALUES
 (1,'Ana Silva','911111111','Lisboa','ana@email.pt','123456'),
 (2,'Carlos Costa','922222222','Porto','carlos@email.pt','123456'),
@@ -147,7 +147,7 @@ INSERT INTO contacto
 (
 id,
 nome,
-`e-mail`,
+email,
 assunto,
 mensagem,
 data
@@ -202,10 +202,10 @@ VALUES
 
 
 INSERT INTO dadosempresa
-(`e-mail`,telefone,
+(email,telefone,
 morada
 )
 VALUES
 
 ('suporte@tdias.pt',210000002,'Porto');
-```
+

@@ -6,6 +6,7 @@
 -- Tempo de geração: 07/05/2026 às 22:15
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
+USE db_ptdias;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `alunos` (
   `nome` varchar(150) NOT NULL,
   `telefone` varchar(12) NOT NULL,
   `morada` varchar(150) NOT NULL,
-  `e-mail` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `password` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -58,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `categorias` (
 CREATE TABLE IF NOT EXISTS `contacto` (
   `id` int(4) NOT NULL AUTO_INCREMENT,
   `nome` varchar(150) NOT NULL,
-  `e-mail` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `assunto` varchar(150) NOT NULL,
   `mensagem` text NOT NULL,
   `data` date NOT NULL,
@@ -95,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `cursos` (
 --
 
 CREATE TABLE IF NOT EXISTS `dadosempresa` (
-  `e-mail` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `telefone` int(12) NOT NULL,
   `morada` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -111,7 +112,7 @@ CREATE TABLE IF NOT EXISTS `formador` (
   `nome` varchar(150) NOT NULL,
   `telefone` int(12) NOT NULL,
   `morada` varchar(150) NOT NULL,
-  `e-mail` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `password` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
