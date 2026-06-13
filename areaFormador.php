@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION["id_formador"])){
+
+    header("Location: loginFormador.php");
+    exit();
+
+}
+
+?>
+
 <html>
 
 <body>

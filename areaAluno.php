@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION["id_aluno"])){
+
+    header("Location: login.php");
+    exit();
+
+}
+?>
+
+
 <html>
 
 <body>
@@ -14,7 +27,7 @@
             <h1>Área do Aluno</h1>
 
             <p>
-                Bem-vindo de volta! Continue a sua aprendizagem
+                Bem-vindo de volta!  <?php echo $_SESSION["nome_aluno"]; ?>, continue a sua aprendizagem
             </p>
 
         </div>

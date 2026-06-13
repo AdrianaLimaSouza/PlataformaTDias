@@ -86,3 +86,131 @@
     font-size:14px;
     width: 100%;
 }
+
+/* ====== Registar ======== */
+.pagina-registo{
+    background:#f5f5f5;
+    padding:60px 20px;
+    min-height:70vh;
+}
+
+.caixa-registo{
+    max-width:500px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.caixa-registo h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.caixa-registo form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.caixa-registo input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.caixa-registo button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+/* =========== LOGIN  ============== */
+   
+.pagina-login{
+    background:#f5f5f5;
+    min-height:70vh;
+    padding:60px 20px;
+}
+
+.caixa-login{
+    max-width:450px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+
+.caixa-login h2{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    text-align:center;
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+.campo-login{
+    position:relative;
+    margin-bottom:20px;
+}
+
+.campo-login i{
+    position:absolute;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#9ca3af;
+}
+
+.campo-login input{
+    width:100%;
+    padding:14px 14px 14px 45px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.btn-login{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.btn-login:hover{
+    background:#1d4ed8;
+}
+
+.link-registo{
+    text-align:center;
+    margin-top:20px;
+}
+
+.link-registo a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.erro{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:20px;
+    text-align:center;
+}

@@ -240,3 +240,70 @@ td{
     color:#2563eb;
     font-size:20px;
 }
+
+/* ==== Login do Formador ==== */
+.pagina-login-formador{
+    background:#f5f5f5;
+    min-height:70vh;
+    padding:60px 20px;
+}
+
+.caixa-login-formador{
+    max-width:450px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.caixa-login-formador h2{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.caixa-login-formador p{
+    text-align:center;
+    margin-bottom:25px;
+    color:#666;
+}
+
+.campo-formador{
+    position:relative;
+    margin-bottom:20px;
+}
+
+.campo-formador i{
+    position:absolute;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#999;
+}
+
+.campo-formador input{
+    width:100%;
+    padding:14px 14px 14px 45px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.btn-login-formador{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.erro-formador{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:20px;
+    text-align:center;
+}
